@@ -21,6 +21,7 @@
   align-items: center;
   width: 30%;
   margin-bottom: 30px;
+  list-style-type: none;
 }
 
 .image-container {
