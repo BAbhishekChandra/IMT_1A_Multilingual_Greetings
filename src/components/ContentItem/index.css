@@ -1,0 +1,33 @@
+.active {
+  background-color: #db1c48;
+  color: #ffffff;
+}
+
+.un-active {
+  background-color: #ffffff;
+  color: #db1c48;
+}
+
+.custom-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  padding: 7px 15px 7px 15px;
+  border: none;
+  border-radius: 25px;
+  border: 1px solid #db1c48;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .custom-button {
+    font-size: 18px;
+    padding: 9px 18px 9px 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .custom-button {
+    font-size: 20px;
+    padding: 10px 25px 10px 25px;
+  }
+}
